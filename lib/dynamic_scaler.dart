@@ -8,8 +8,6 @@ class Scaler {
 
   //Multipliers are the variables that hold the value for the factors by which
   //a said widget will be scaled.
-  static double textScaleFactor;
-  static double imageScaleFactor;
   static double heightScaleFactor;
   static double widthScaleFactor;
 
@@ -39,10 +37,11 @@ class Scaler {
 
   static void printDeviceSizeInformation() {
     ///Printing the block sizes to get an idea for multiplier values
+    print('------------------------------------');
     print('Device Specific Scaling Factors:');
-    print('Device Specific Scaling Factors:');
-    print('Height: ' + scalableBlockHeight.toStringAsFixed(2));
-    print('Width: ' + scalableBlockWidth.toStringAsFixed(2));
+    print('------------------------------------');
+    print('Height Factor: ' + scalableBlockHeight.toStringAsFixed(2));
+    print('Width Factor: ' + scalableBlockWidth.toStringAsFixed(2));
   }
 
   static double scaleWidgetHeight(double actualHeight, double heightFactor) {

@@ -1,5 +1,5 @@
 name: dynamic_scaler
-description: A new Flutter package.
+description: A Flutter package that enables dynamic scaling of widgets, images and padding
 version: 0.0.1
 author: Mayur Bhoi<mayur072000@gmail.com>
 homepage: https://github.com/Mayur57/dynamic-scaler.git
